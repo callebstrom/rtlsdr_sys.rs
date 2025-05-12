@@ -81,4 +81,5 @@ extern {
     pub fn rtlsdr_read_async(dev: rtlsdr_dev_t, cb: rtlsdr_read_async_cb_t,
                              ctx: *mut c_void, num: uint32_t, len: uint32_t) -> c_int;
     pub fn rtlsdr_cancel_async(dev: rtlsdr_dev_t) -> c_int;
+    pub fn rtlsdr_set_bias_tee(dev: rtlsdr_dev_t, on: c_int) -> c_int;
 }
