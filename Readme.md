@@ -1,5 +1,9 @@
 # rtlsdr\_sys.rs – Low-level bindings to `librtlsdr`
 
+## Why fork?
+This fork adds bias tee functionality to `rtlsdr_sys`.
+
+## Summary
 [Documentation](https://kchmck.github.io/doc/rtlsdr_sys/)
 
 This crate provides low-level [FFI](https://doc.rust-lang.org/book/ffi.html) bindings
